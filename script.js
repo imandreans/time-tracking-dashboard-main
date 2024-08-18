@@ -1,4 +1,4 @@
-fetch("data.json")
+fetch("/data.json")
   .then((req) => {
     if (!req.ok) {
       console.log("Oops! Something went wrong.");
@@ -7,6 +7,10 @@ fetch("data.json")
     return req.json();
   })
   .then((data) => {
+    if (data === null) {
+      throw new Error("Data is null");
+    }
+    console.log("Data received:", data);
     data.forEach((data) => {
       let current = data.timeframes.daily.current;
       let previous = data.timeframes.daily.previous;
@@ -46,5 +50,8 @@ fetch("data.json")
       });
       document.getElementById("daily").click();
     });
+  })
+  .catch((error) => {
+    console.error("There was a problem with the fetch operation:", error);
   });
 // window.addEventListener('load', clickButton);
