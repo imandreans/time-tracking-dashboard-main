@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/imandreans/time-tracking-dashboard-main)
-- Live Site URL: [live site URL](https://imandreans.github.io/time-tracking-dashboard-main/)
+- Live Site URL: [live site URL](https://time-tracking-dashboard-main-sepia-five.vercel.app/)
 
 ## My process
 
@@ -55,12 +55,11 @@ I learned how to make those cards' design and learn more about Event Listener an
 
 ### Continued development
 
-Will try to do experiment on Javascript Dom
+Will try to do experiment on Javascript DOM.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Card Dessign](https://youtu.be/b71OeOAEQrQ?si=aOMULW4fSIbDi1u2) - This video helped me to understand how to make the card design with border style.
 
 ## Author
 
