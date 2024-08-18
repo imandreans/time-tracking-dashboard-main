@@ -55,6 +55,8 @@ I learned how to make those cards' design and learn more about Event Listener an
 
 ### Continued development
 
+Will try to do experiment on Javascript Dom
+
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.

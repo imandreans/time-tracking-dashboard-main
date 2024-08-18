@@ -1,4 +1,4 @@
-fetch("/time-tracking-dashboard-main/data.json")
+fetch("/main/data.json")
   .then((req) => {
     if (!req.ok) {
       console.log("Oops! Something went wrong.");
