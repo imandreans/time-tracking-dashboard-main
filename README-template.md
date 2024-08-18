@@ -30,11 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop](./desktop.png)
+![mobile](./mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/imandreans/time-tracking-dashboard-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
