@@ -7,9 +7,6 @@ fetch("/main/data.json")
     return req.json();
   })
   .then((data) => {
-    if (data === null) {
-      throw new Error("Data is null");
-    }
     console.log("Data received:", data);
     data.forEach((data) => {
       let current = data.timeframes.daily.current;
@@ -50,8 +47,6 @@ fetch("/main/data.json")
       });
       document.getElementById("daily").click();
     });
-  })
-  .catch((error) => {
-    console.error("There was a problem with the fetch operation:", error);
   });
+
 // window.addEventListener('load', clickButton);
